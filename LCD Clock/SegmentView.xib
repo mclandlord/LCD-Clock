@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11762"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentView">
+            <connections>
+                <outlet property="segment1" destination="9VT-yz-g1T" id="TuM-nP-xKw"/>
+                <outlet property="segment2" destination="flK-no-cvo" id="Z0g-qV-9Vp"/>
+                <outlet property="segment3" destination="WXE-eq-bmN" id="KTd-eW-YoK"/>
+                <outlet property="segment4" destination="Nq5-su-4qc" id="SsI-ET-d70"/>
+                <outlet property="segment5" destination="ero-2Z-dAx" id="EJH-pr-2DH"/>
+                <outlet property="segment6" destination="GPe-Bs-Stv" id="sno-iq-xjS"/>
+                <outlet property="segment7" destination="Yi0-hF-R3m" id="Vk7-Zb-36k"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="999" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPe-Bs-Stv">
+                    <rect key="frame" x="290" y="335" width="70" height="195"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GPe-Bs-Stv" secondAttribute="height" multiplier="14:39" id="7ux-Rd-LWJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nq5-su-4qc">
+                    <rect key="frame" x="0.0" y="265" width="360" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Nq5-su-4qc" secondAttribute="height" multiplier="36:7" id="2AW-NT-KQX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXE-eq-bmN">
+                    <rect key="frame" x="290" y="70" width="70" height="195"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="WXE-eq-bmN" secondAttribute="height" multiplier="14:39" id="pKd-0v-dlj"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yi0-hF-R3m">
+                    <rect key="frame" x="0.0" y="530" width="360" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Yi0-hF-R3m" secondAttribute="height" multiplier="36:7" id="SL3-AC-vGW"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9VT-yz-g1T">
+                    <rect key="frame" x="0.0" y="0.0" width="360" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="9VT-yz-g1T" secondAttribute="height" multiplier="36:7" id="Vfi-5Q-Gee"/>
+                        <constraint firstAttribute="width" secondItem="9VT-yz-g1T" secondAttribute="height" multiplier="36:7" id="oDp-GB-OZV"/>
+                        <constraint firstAttribute="width" secondItem="9VT-yz-g1T" secondAttribute="height" multiplier="36:7" id="ppc-Za-Vh1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Vfi-5Q-Gee"/>
+                            <exclude reference="ppc-Za-Vh1"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ero-2Z-dAx">
+                    <rect key="frame" x="0.0" y="335" width="70" height="195"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ero-2Z-dAx" secondAttribute="height" multiplier="14:39" id="iQj-LO-d7Q"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="flK-no-cvo">
+                    <rect key="frame" x="0.0" y="70" width="70" height="195"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="flK-no-cvo" secondAttribute="height" multiplier="14:39" id="rjS-gN-2fQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nq5-su-4qc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7ME-0o-kx1"/>
+                <constraint firstItem="flK-no-cvo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BWv-7f-aTi"/>
+                <constraint firstAttribute="centerY" secondItem="Nq5-su-4qc" secondAttribute="centerY" id="DLb-en-69x"/>
+                <constraint firstItem="9VT-yz-g1T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K4F-jg-Bft"/>
+                <constraint firstItem="9VT-yz-g1T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KCw-aD-GeF"/>
+                <constraint firstItem="Yi0-hF-R3m" firstAttribute="top" secondItem="ero-2Z-dAx" secondAttribute="bottom" id="L02-ZQ-sdj"/>
+                <constraint firstItem="ero-2Z-dAx" firstAttribute="top" secondItem="Nq5-su-4qc" secondAttribute="bottom" id="MNq-sx-C4x"/>
+                <constraint firstAttribute="trailing" secondItem="WXE-eq-bmN" secondAttribute="trailing" id="Maq-7r-s7a"/>
+                <constraint firstItem="Nq5-su-4qc" firstAttribute="top" secondItem="flK-no-cvo" secondAttribute="bottom" id="Not-1U-mpD"/>
+                <constraint firstItem="WXE-eq-bmN" firstAttribute="top" secondItem="9VT-yz-g1T" secondAttribute="bottom" id="Oys-Ov-Gzg"/>
+                <constraint firstItem="Nq5-su-4qc" firstAttribute="top" secondItem="WXE-eq-bmN" secondAttribute="bottom" id="SUz-Cm-2jT"/>
+                <constraint firstAttribute="trailing" secondItem="Nq5-su-4qc" secondAttribute="trailing" id="T5M-EN-q5U"/>
+                <constraint firstItem="flK-no-cvo" firstAttribute="top" secondItem="9VT-yz-g1T" secondAttribute="bottom" id="ZDV-xL-w59"/>
+                <constraint firstAttribute="trailing" secondItem="GPe-Bs-Stv" secondAttribute="trailing" id="bpq-ny-0rB"/>
+                <constraint firstAttribute="bottom" secondItem="Yi0-hF-R3m" secondAttribute="bottom" id="dZY-gE-Eca"/>
+                <constraint firstItem="Yi0-hF-R3m" firstAttribute="top" secondItem="GPe-Bs-Stv" secondAttribute="bottom" id="fEb-YE-9Sq"/>
+                <constraint firstAttribute="trailing" secondItem="9VT-yz-g1T" secondAttribute="trailing" id="iyH-0C-8xi"/>
+                <constraint firstItem="Yi0-hF-R3m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lse-4O-TlJ"/>
+                <constraint firstItem="ero-2Z-dAx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sxQ-hs-Dcx"/>
+                <constraint firstItem="GPe-Bs-Stv" firstAttribute="top" secondItem="Nq5-su-4qc" secondAttribute="bottom" id="ug2-Jw-hXO"/>
+                <constraint firstAttribute="trailing" secondItem="Yi0-hF-R3m" secondAttribute="trailing" id="ylv-P7-dbN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="330" y="447"/>
+        </view>
+    </objects>
+</document>
